@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import data from "./data";
 import JobInfo from "./JobInfo";
+import BtnContainer from "./BtnContainer";
 
 // const url = "https://course-api.com/react-tabs-project";
 
@@ -24,6 +25,7 @@ const App = () => {
   return (
     <section className="jobs-center">
       {/* button container */}
+      <BtnContainer jobs={jobs}/>
 
       {/* job info */}
 

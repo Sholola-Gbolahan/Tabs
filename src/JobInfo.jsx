@@ -1,5 +1,6 @@
 import React from "react";
 import Duties from "./Duties";
+
 const JobInfo = ({ jobs }) => {
   const { company, dates, duties, title } = jobs[0];
   return (
